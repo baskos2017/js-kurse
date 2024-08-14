@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let birthYear = +prompt("Введіть рік народження");
+        let currentYear = new Date().getFullYear();
+        let currentAge = (currentYear - birthYear);
+        const adultAge = 18;
+        if (currentAge >= adultAge ){
+            alert("Повнолітній коричтувач");
+        }
+        else { 
+
+            alert("Не повнолітній користувач")
+
+        }
+    </script>
+</body>
+</html>
